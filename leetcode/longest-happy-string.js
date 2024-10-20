@@ -1,4 +1,6 @@
 /*
+https://leetcode.com/problems/longest-happy-string/description/
+
 A string s is called happy if it satisfies the following conditions:
 
 s only contains the letters 'a', 'b', and 'c'.
