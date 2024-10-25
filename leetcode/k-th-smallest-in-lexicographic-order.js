@@ -1,4 +1,6 @@
 /*
+https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/
+
 Given two integers n and k, return the kth lexicographically smallest integer in the range [1, n].
 
 Example 1:

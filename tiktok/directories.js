@@ -1,3 +1,15 @@
+/*
+Given array of directories paths you need to print it in hierarchical view.
+
+Example
+Input: ['app/src.tsx', 'app/style.css', 'package.json']
+Output:
+app
+--src.tsx
+--style.css
+package.json
+*/
+
 function insertSubtree(tree, subtree) {
     Object.keys(subtree).forEach((key) => {
         if (!tree[key]) {
@@ -41,13 +53,13 @@ function printTree(paths) {
     printSubtree(tree);
 }
 
-// printTree([
-//     'app/src/app/app.jsx',
-//     'app/src/app/app.css',
-//     'kokoko.tss',
-//     'foo/bar/topor.good',
-//     'app/src/components/slider/slider.css',
-//     'app/src/components/slider/slider.tsx',
-//     'app/src/components/button/button.css',
-//     'app/src/components/button/button.tsx',
-// ]);
+printTree([
+    'app/src/app/app.jsx',
+    'app/src/app/app.css',
+    'kokoko.tss',
+    'foo/bar/topor.good',
+    'app/src/components/slider/slider.css',
+    'app/src/components/slider/slider.tsx',
+    'app/src/components/button/button.css',
+    'app/src/components/button/button.tsx',
+]);
